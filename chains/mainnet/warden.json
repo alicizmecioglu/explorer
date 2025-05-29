@@ -6,7 +6,7 @@
   "min_tx_fee": 200,
   "sdk_version": "v0.50.9-evmos-warden",
   "addr_prefix": "warden",
-  "logo": "/logos/warden.png",
+  "logo": "https://avatars.githubusercontent.com/u/158038121?s=200&v=4",
   "assets": [
     {
       "base": "award",
