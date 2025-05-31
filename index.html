@@ -41,35 +41,39 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ping-pub/widget@latest/dist/widget.min.js"></script>
 
 
+    
     <style>
-  /* Koyu tema arka planı - Linqnode'un genel temasını koruyarak daha koyu bir ton */
-  :is(.dark .dark\:bg-\[\#171d30\]) {
-    background: #1c3450; /* Koyu temada tamamen siyah */
-  }
+      :is(.dark .dark\:bg-\[\#171d30\])
+      {
+          background: #1c3450;
+      }
 
-  /* Temel arka plan rengi - Linqnode'un ana açık mor tonuna uyumlu */
-  .bg-base-100 {
-    background: #2f5972; /* Açık lavanta/mor */
-  }
 
-  /* Birincil düğmeler ve aktif sekmeler - Linqnode'un vurgu rengi olan turkuaz/mavi tonu */
-  .btn-primary,
-  .tabs-boxed .tab-active:not(.tab-disabled):not([disabled]) {
-    border-color: #64b5f6; /* Açık turkuaz/mavi */
-    outline-color: #64b5f6; /* Açık turkuaz/mavi */
-    background: #64b5f6; /* Açık turkuaz/mavi */
-  }
+      .bg-base-100
+      {
+          background: #23054f;
+      }
 
-  /* Koyu tema hover efekti - Koyu temada öğenin üzerine gelindiğinde maviye dönen bir efekt */
-  :is(.dark .dark\:hover\:bg-\[\#373f59\]:hover) {
-    color: #fff; /* Metin beyaz kalır */
-    background: #64b5f6; /* Arka plan Linqnode'un vurgu rengi olur */
-  }
 
-  /* Birincil metin rengi - Linqnode'un vurgu rengi olan turkuaz/mavi tonu */
-  .text-primary {
-    color: #64b5f6; /* Açık turkuaz/mavi */
-  }
-</style>
+      .btn-primary,
+      .tabs-boxed .tab-active:not(.tab-disabled):not([disabled])
+      {
+          border-color: #1696ff;
+          outline-color: #1696ff;
+          background: #1696ff;
+      }
+
+      :is(.dark .dark\:hover\:bg-\[\#373f59\]:hover)
+      {
+          color: #1c3450;
+          background: #1696ff;
+      }
+
+
+      .text-primary
+      {
+          color: #1696ff;
+      }
+    </style>
   </body>
 </html>
