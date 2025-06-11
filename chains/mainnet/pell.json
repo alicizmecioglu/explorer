@@ -8,7 +8,7 @@
     "coin_type": "60",
     "min_tx_fee": "4000",
     "addr_prefix": "pell",
-    "logo": "/logos/pell.png",
+    "logo": "https://avatars.githubusercontent.com/u/167960015?s=200&v=4",
     "keplr_features": ["eth-address-gen", "eth-key-sign"],
     "assets": [{
         "base": "apell",
