@@ -1,0 +1,20 @@
+{
+  "chain_name": “TAC Mainnet”,
+  "registry_name": "TAC Mainnet",
+  "coingecko": "",
+  "api": ["https://api.tac.nodestake.org"],
+  "rpc": ["https://rpc.ankr.com/http/tac_cosmos/"],
+  "snapshot_provider": "",
+  "sdk_version": "",
+  "coin_type": "118",
+  "min_tx_fee": "200",
+  "addr_prefix": "tac",
+  "logo": "https://raw.githubusercontent.com/molla202/CoreNode-explorer/main/logos/tac.png",
+  "assets": [{
+    "base": "utac",
+    "symbol": "TAC",
+    "exponent": "18",
+    "coingecko_id": "",
+    "logo": "https://raw.githubusercontent.com/molla202/CoreNode-explorer/main/logos/tac.png"
+  }]
+}
