@@ -1,5 +1,5 @@
 {
-  "chain_name": "tac”,
+  "chain_name": "tac",
   "registry_name": "tac",
   "coingecko": "",
   "api": ["https://api.tac.nodestake.org"],
