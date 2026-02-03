@@ -1,0 +1,16 @@
+{
+    "chain_name": "Republic",
+    "api": ["https://api-t.republic.vinjan-inc.com"],
+    "rpc": ["https://rpc.republicai.io"],
+    "sdk_version": "v0.50.8",
+    "coin_type": "118",
+    "min_tx_fee": "500",
+    "addr_prefix": "rai",
+    "logo": "/logos/republic.svg",
+    "assets": [{
+        "base": "arai",
+        "symbol": "RAI",
+        "exponent": "6",
+        "logo": "/logos/republic.svg"
+    }]
+}
